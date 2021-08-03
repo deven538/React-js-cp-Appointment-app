@@ -1,0 +1,113 @@
+/* Write your CSS here */
+
+.background-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  min-height: 75vh;
+  width: 96%;
+  border-radius: 10px;
+}
+
+.app-heading {
+  color: #171f46;
+  font-size: 30px;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.input-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-edits {
+  display: flex;
+  flex-direction: column;
+  margin-left: 65px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.title-edit {
+  color: #b5b7c4;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.input-edit {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #8b5cf6;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.image-edit {
+  width: 400px;
+  margin-right: 45px;
+  padding-bottom: 25px;
+}
+
+.line {
+  color: #171f46;
+  border-width: 2px;
+  width: 90%;
+}
+
+.bottom-head-button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.appoint-head {
+  color: #171f46;
+  font-size: 24px;
+  margin-left: 65px;
+}
+
+.starred-item-button {
+  background-color: transparent;
+  border-radius: 15px;
+  width: 100px;
+  height: 30px;
+  margin-left: 25px;
+  margin-top: 13px;
+}
+
+.unordered-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 65px;
+  padding: 0px;
+}
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
